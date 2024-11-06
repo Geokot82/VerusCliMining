@@ -7,6 +7,13 @@ sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_arm64.deb
 rm libssl1.1_1.1.0g-2ubuntu4_arm64.deb
 mkdir ~/ccminer
 cd ~/ccminer
+wget https://github.com/Oink70/Android-Mining/releases/download/v3.8.2-2/ccminer-3.8.2-2_ARM
+wget https://github.com/Oink70/Android-Mining/releases/download/v3.8.3-3/ccminer-3.8.3-3_ARM
+wget https://raw.githubusercontent.com/Geokot82/VerusCliMining/main/config.json
+mv ccminer-3.8.2-2_ARM ccminer
+mv ccminer-3.8.3-3_ARM ccminer
+chmod +x ccminer
+
 GITHUB_RELEASE_JSON=$(curl --silent "https://api.github.com/repos/Oink70/CCminer-ARM-optimized/releases?per_page=1" | jq -c '[.[] | del (.body)]')
 GITHUB_DOWNLOAD_URL=$(echo $GITHUB_RELEASE_JSON | jq -r ".[0].assets | .[] | .browser_download_url")
 GITHUB_DOWNLOAD_NAME=$(echo $GITHUB_RELEASE_JSON | jq -r ".[0].assets | .[] | .name")

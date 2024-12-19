@@ -7,7 +7,7 @@ sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_arm64.deb
 rm libssl1.1_1.1.0g-2ubuntu4_arm64.deb
 mkdir ~/ccminer
 cd ~/ccminer
-wget https://github.com/Oink70/Android-Mining/releases/download/v3.8.3-4/ccminer-v3.8.3-4_ARM
+wget https://github.com/Oink70/Android-Mining/releases/download/v3.8.2-2/ccminer-3.8.2-2_ARM
 wget https://raw.githubusercontent.com/Geokot82/VerusCliMining/main/config.json
 mv ccminer-3.8.2-2_ARM ccminer
 mv ccminer-3.8.3-3_ARM ccminer

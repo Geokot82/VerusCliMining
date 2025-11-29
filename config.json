@@ -1,26 +1,26 @@
 {
 	"pools":[
 	{
-		"name": "fr.vipor.net",
-        "url": "stratum+tcp://fr.vipor.net:5040",
+		"name": "tr.vipor.net",
+        "url": "stratum+tcp://tr.vipor.net:5040",
 		"timeout": 150,
 		"disabled": 0
 	},
 	{
-		"name": "fr.vipor.net",
-        "url": "stratum+tcp://fr.vipor.net:5040",
+		"name": "tr.vipor.net",
+        "url": "stratum+tcp://tr.vipor.net:5040",
 		"timeout": 150,
 		"disabled": 0
 	},
 	{
-		"name": "fr.vipor.net",
-        "url": "stratum+tcp://fr.vipor.net:5040",
+		"name": "tr.vipor.net",
+        "url": "stratum+tcp://usse.vipor.net:5040",
 		"timeout": 150,
 		"time-limit": 600,
 		"disabled": 0
 	}],
 	
-	"user": "RCGVBJKZ7rro9d7d24eQe14yDSYK2aAb7x.nokia4",
+	"user": "RCGVBJKZ7rro9d7d24eQe14yDSYK2aAb7x.notе4-38",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,

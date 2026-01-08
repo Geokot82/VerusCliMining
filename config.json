@@ -2,7 +2,7 @@
 	"pools":[
 	{
 		"name": "pool1",
-        "url": "stratum+tcp://verus.aninterestinghole.xyz:9999",
+        "url": "stratum+tcp://ussw.vipor.net:5040",
 		"timeout": 150,
 		"disabled": 0
 	},
@@ -20,7 +20,7 @@
 		"disabled": 0
 	}],
 	
-	"user": "RCGVBJKZ7rro9d7d24eQe14yDSYK2aAb7x.notе4-42",
+	"user": "RCGVBJKZ7rro9d7d24eQe14yDSYK2aAb7x.s8-2",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
